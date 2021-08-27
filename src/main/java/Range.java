@@ -9,4 +9,12 @@ public class Range {
     public boolean isStartWithInclusive() {
         return text.startsWith("[");
     }
+
+    public int getStartInput() {
+        return Integer.parseInt(text.substring(1,2));
+    }
+
+    public boolean isEndWithInclusive() {
+        return text.startsWith("[");
+    }
 }
